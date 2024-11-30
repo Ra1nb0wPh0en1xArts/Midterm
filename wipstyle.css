@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: aqua;
+}
+
+h1{
+  text-align: center;
+  padding-top: 50px;
+}
+
+.suprise{
+  text-align: center;
+  padding: 50px;
+}
+
+h3{
+  text-align: center;
+}
