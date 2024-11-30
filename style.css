@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Futura'
+}
+
+nav{
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  padding: 35px;
+  background-color: #E3FCFC;
+}
+
+nav ul{
+  text-align: right;
+  display: flex;
+  justify-content: end;
+
+}
+
+nav ul li{
+  color: #0A337A;
+  margin-right: 20px;
+}
+
+.front-page-header {
+  padding: 100px;
+  text-align: center;
+  color: #6FACC2;
+  background-image: url("styleimages/HeaderBackgroundRepeat.jpeg");
+  background-position: left top;
+  background-repeat: repeat;
+}
+
+.front-page-header h1{
+  padding-top: 155px;
+  font-size: 95px;
+}
+
+.front-page-header h3{
+  font-size: 25px;
+  padding: 60px;
+}
+
+.directory h1{
+  font-size: 60px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  text-align: center;
+  color: #6FACC2;
+}
+
+.directory-images{
+  text-align: center;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.directory-images .column{
+  background-color: #445dcc;
+  flex-basis: 100%;
+  flex: 1;
+  width: 50%;
+}
+
+.left{
+  height: 812px;
+  flex-grow: 50%;
+}
+
+.right{
+  height: 812px;
+  flex-grow: 50%;
+}
+
+footer{
+  padding-top: 50px;
+  text-align: center;
+  color: #6FACC2;
+}
+
+.links{
+  padding-top: 50px;
+  text-align: center;
+}
+
+.links ul{
+  display: flex;
+  justify-content: center;
+}
+
+.links ul li{
+  color: #0A337A;
+  margin-inline: 40px;
+}
